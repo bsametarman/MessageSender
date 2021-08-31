@@ -39,7 +39,7 @@ def waitTimeCalculate(hour: int, minute: int):
     if totalSec <= 0:
         left_time = 86400 + totalSec
     
-    print(f"Messages will be sent {totalSec} Secounds later...")
+    print(f"Messages will be sent {totalSec} Secounds later....")
 
     time.sleep(totalSec)
 
